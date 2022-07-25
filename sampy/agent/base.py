@@ -1,4 +1,3 @@
-import pandas as pd
 import numpy as np
 from .jit_compiled_functions import (count_nb_agent_per_vertex,
                                      conditional_count_nb_agent_per_vertex)
