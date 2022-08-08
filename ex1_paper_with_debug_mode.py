@@ -13,10 +13,6 @@ use_debug_mode(BasicMammal)
 use_debug_mode(SquareGridWithDiag)
 use_debug_mode(ContactCustomProbTransitionPermanentImmunity)
 
-# set the rng seed for reproducibility purpose
-rng_seed = 1789
-np.random.seed(rng_seed)
-
 # path to the population csv
 path_pop_csv = 'C:/post_doc/data/data_paper_sampy/population.csv'
 

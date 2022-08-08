@@ -5,10 +5,6 @@ from constant_paper import ARR_WEEKLY_MORTALITY, ARR_NB_WEEK_INF, ARR_PROB_WEEK_
 import numpy as np
 import matplotlib.pyplot as plt
 
-# set the rng seed for reproducibility purpose
-rng_seed = 1789
-np.random.seed(rng_seed)
-
 # path to the population csv
 path_pop_csv = 'C:/post_doc/data/data_paper_sampy/population.csv'
 

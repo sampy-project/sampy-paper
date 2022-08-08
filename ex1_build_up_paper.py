@@ -4,10 +4,6 @@ from constant_paper import ARR_WEEKLY_MORTALITY
 
 import numpy as np
 
-# set the rng seed for reproducibility purpose
-rng_seed = 1789
-np.random.seed(rng_seed)
-
 # path to a folder where to save the population csv
 path_output_folder = 'C:/post_doc/data/data_paper_sampy'
 
@@ -29,6 +25,7 @@ agents.add_agents(dict_new_agents)
 
 nb_year_simu = 100
 for i in range(nb_year_simu * 52 + 1):
+
     agents.tick()
     my_graph.tick()
 
